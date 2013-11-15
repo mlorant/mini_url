@@ -2,10 +2,10 @@ TP raccourcisseur d'URL
 =======================
 
 Vous trouverez dans cette archive l'ensemble des fichiers composant le
-TP raccourcisseur d'URL, disponible dans le cours sur Django du Site du
-Zéro. Cette version a été commentée, afin de vous permettre de voir
-l'utilité de chaque fichier sans pour autant reparcourir le cours, en
-cas de trou de mémoire ;)
+TP raccourcisseur d'URL, disponible dans le cours sur Django de 
+OpenClassrooms. Cette version a été commentée, afin de vous permettre 
+de voir l'utilité de chaque fichier sans pour autant reparcourir le cours,
+en cas de trou de mémoire ;)
 
 Une particularité que nous avons pas abordé dans le cours est le dossier
 ``templates`` au sein de l'application : vous remarquerez ici que nous
@@ -28,3 +28,7 @@ Modifications à apporter au projet
 3. Ajouter ``url(r'^m/', include('mini_url.urls')),`` dans les patterns du fichier ``urls.py``
 4. Exécuter la commande ``python manage.py syncdb``
 5. Lancer votre serveur Django et c'est prêt à l'adresse http://localhost:8000/m/
+
+
+
+Pour rappel, le cours est disponible à l'adresse suivante : http://fr.openclassrooms.com/informatique/cours/developpez-votre-site-web-avec-le-framework-django
